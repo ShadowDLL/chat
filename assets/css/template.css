@@ -1,0 +1,78 @@
+body {
+    margin:0;
+}
+.environment {
+    height:10px;
+    background-color:#000000;
+}
+.imghome{
+    margin:auto;
+    width:605px;
+    margin-top:100px;
+}
+.imgclientesuporte{
+    border:0;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+table th {
+    text-align:left;
+}
+.chatbutton {
+    width:200px;
+    height:40px;
+    background-color:orange;
+    text-align:center;
+    line-height: 40px;
+    position:fixed;
+    bottom:0;
+    right:50px;
+    cursor:pointer;
+}
+.chatarea {
+    height:340px;
+    background-image: url("../images/fundo.png");
+    background-repeat: no-repeat;
+    overflow-y:scroll;
+    word-wrap: break-word;
+}
+.inputarea {
+    height:50px;
+    background-color:#FFFFFF;
+}
+#msg {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    font-size:15px;
+}
+.msgitem {
+    margin-bottom:5px;
+}
+.msgenviada, .msgrecebida{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.msgenviada{
+    float: right;
+    margin-right: 5px;
+    background-color: #DCF8C6;    
+}
+.msgrecebida{
+    float: left;  
+    margin-left: 5px;    
+    background-color: #FFFFFF; 
+}
+.nome{
+    position:fixed;
+    height: 30px;
+    line-height: 30px;
+    width:100%;
+    background-color: #2E4442;
+    text-align: center;
+    color: #FFFFFF;
+}
