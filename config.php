@@ -1,6 +1,6 @@
 <?php
 require 'environment.php';
-
+define("BASE_URL", "twitter:81");
 global $config;
 $config = array();
 if(ENVIRONMENT == 'development') {
